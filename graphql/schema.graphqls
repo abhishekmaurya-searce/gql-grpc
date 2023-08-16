@@ -1,0 +1,11 @@
+input Request{
+    req: String!
+}
+
+type Response{
+    res: String
+}
+
+type Mutation{
+    greet(input: Request!): Response!
+}
